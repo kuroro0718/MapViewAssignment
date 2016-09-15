@@ -13,6 +13,7 @@
 		EB227DFE1D89785A00FC8D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB227DFD1D89785A00FC8D66 /* Assets.xcassets */; };
 		EB227E011D89785A00FC8D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB227DFF1D89785A00FC8D66 /* LaunchScreen.storyboard */; };
 		EB227E091D897C8300FC8D66 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB227E081D897C8300FC8D66 /* MapKit.framework */; };
+		EBFA951F1D8A8C0000255261 /* FriendAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA951E1D8A8C0000255261 /* FriendAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB227E001D89785A00FC8D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB227E021D89785A00FC8D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB227E081D897C8300FC8D66 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EBFA951E1D8A8C0000255261 /* FriendAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EB227DF81D89785A00FC8D66 /* ViewController.swift */,
 				EB227DFA1D89785A00FC8D66 /* Main.storyboard */,
 				EB227DFD1D89785A00FC8D66 /* Assets.xcassets */,
+				EBFA951E1D8A8C0000255261 /* FriendAnnotation.swift */,
 				EB227DFF1D89785A00FC8D66 /* LaunchScreen.storyboard */,
 				EB227E021D89785A00FC8D66 /* Info.plist */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				EB227DF91D89785A00FC8D66 /* ViewController.swift in Sources */,
 				EB227DF71D89785A00FC8D66 /* AppDelegate.swift in Sources */,
+				EBFA951F1D8A8C0000255261 /* FriendAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				EB227E071D89785A00FC8D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
