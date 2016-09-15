@@ -14,6 +14,7 @@
 		EB227E011D89785A00FC8D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB227DFF1D89785A00FC8D66 /* LaunchScreen.storyboard */; };
 		EB227E091D897C8300FC8D66 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB227E081D897C8300FC8D66 /* MapKit.framework */; };
 		EBFA951F1D8A8C0000255261 /* FriendAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA951E1D8A8C0000255261 /* FriendAnnotation.swift */; };
+		EBFA95211D8A973700255261 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA95201D8A973700255261 /* FriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EB227E021D89785A00FC8D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB227E081D897C8300FC8D66 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EBFA951E1D8A8C0000255261 /* FriendAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendAnnotation.swift; sourceTree = "<group>"; };
+		EBFA95201D8A973700255261 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				EB227DF61D89785A00FC8D66 /* AppDelegate.swift */,
+				EBFA95201D8A973700255261 /* FriendViewController.swift */,
 				EB227DF81D89785A00FC8D66 /* ViewController.swift */,
 				EB227DFA1D89785A00FC8D66 /* Main.storyboard */,
 				EB227DFD1D89785A00FC8D66 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFA95211D8A973700255261 /* FriendViewController.swift in Sources */,
 				EB227DF91D89785A00FC8D66 /* ViewController.swift in Sources */,
 				EB227DF71D89785A00FC8D66 /* AppDelegate.swift in Sources */,
 				EBFA951F1D8A8C0000255261 /* FriendAnnotation.swift in Sources */,

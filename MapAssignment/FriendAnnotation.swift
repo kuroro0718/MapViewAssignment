@@ -14,11 +14,15 @@ class FriendAnnotation: NSObject, MKAnnotation {
     var title: String?
     var subtitle: String?
     var address: String
+    var imageName: String
+    var introduction: String
     
-    init(coordinate: CLLocationCoordinate2D, title: String, subtitle: String, address: String) {
+    init(coordinate: CLLocationCoordinate2D, title: String, subtitle: String, address: String, imageName: String, introduction: String) {
         self.coordinate = coordinate
         self.title = title
         self.subtitle = subtitle
         self.address = address
+        self.imageName = imageName
+        self.introduction = introduction
     }
 }
