@@ -57,20 +57,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFc-Ku-owi">
-                                <rect key="frame" x="279" y="49" width="42" height="21"/>
+                                <rect key="frame" x="279" y="93" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yAg-qv-ybD">
-                                <rect key="frame" x="40" y="20" width="80" height="80"/>
+                                <rect key="frame" x="40" y="64" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="2wO-HA-ke3"/>
                                     <constraint firstAttribute="width" constant="80" id="cdv-iP-vCo"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FkO-VT-B6O">
-                                <rect key="frame" x="90.5" y="140" width="420" height="420"/>
+                                <rect key="frame" x="90" y="184" width="420" height="360"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="N0V-GC-LVS"/>
@@ -85,26 +85,47 @@
                                     </mask>
                                 </variation>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aue-gs-Sde">
+                                <rect key="frame" x="279" y="558" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fFc-Ku-owi" firstAttribute="centerY" secondItem="yAg-qv-ybD" secondAttribute="centerY" id="1wJ-S5-1T0"/>
+                            <constraint firstItem="yAg-qv-ybD" firstAttribute="top" secondItem="C9D-eq-dAB" secondAttribute="bottom" id="2BZ-OY-dtp"/>
                             <constraint firstItem="FkO-VT-B6O" firstAttribute="width" secondItem="Rad-xp-rDS" secondAttribute="width" multiplier="0.7" id="33q-DH-1LN"/>
+                            <constraint firstItem="Aue-gs-Sde" firstAttribute="centerY" secondItem="fFc-Ku-owi" secondAttribute="centerY" id="DIb-4P-fNX"/>
+                            <constraint firstItem="yAg-qv-ybD" firstAttribute="leading" secondItem="Rad-xp-rDS" secondAttribute="leadingMargin" constant="20" id="GmE-md-HM4"/>
+                            <constraint firstItem="Aue-gs-Sde" firstAttribute="centerX" secondItem="Rad-xp-rDS" secondAttribute="centerX" id="Izj-Kv-eEe"/>
                             <constraint firstItem="FkO-VT-B6O" firstAttribute="centerX" secondItem="Rad-xp-rDS" secondAttribute="centerX" id="Okf-4p-51x"/>
+                            <constraint firstItem="Aue-gs-Sde" firstAttribute="top" secondItem="FkO-VT-B6O" secondAttribute="bottom" constant="14" id="RLN-eX-IjF"/>
                             <constraint firstItem="fFc-Ku-owi" firstAttribute="top" secondItem="C9D-eq-dAB" secondAttribute="bottom" constant="8" id="WUT-gh-DNO"/>
                             <constraint firstItem="yAg-qv-ybD" firstAttribute="top" secondItem="C9D-eq-dAB" secondAttribute="bottom" id="YCc-Pj-5wS"/>
                             <constraint firstItem="yAg-qv-ybD" firstAttribute="leading" secondItem="Rad-xp-rDS" secondAttribute="leadingMargin" constant="20" id="YQA-Y6-JMo"/>
                             <constraint firstItem="fFc-Ku-owi" firstAttribute="centerX" secondItem="Rad-xp-rDS" secondAttribute="centerX" id="YsL-8d-Zu5"/>
+                            <constraint firstItem="Aue-gs-Sde" firstAttribute="top" secondItem="C9D-eq-dAB" secondAttribute="bottom" constant="29" id="eZ8-6B-otk"/>
                             <constraint firstItem="FkO-VT-B6O" firstAttribute="top" secondItem="fFc-Ku-owi" secondAttribute="bottom" constant="70" id="kKV-V2-Uh5"/>
-                            <constraint firstItem="FkO-VT-B6O" firstAttribute="height" secondItem="Rad-xp-rDS" secondAttribute="height" multiplier="0.7" id="v5Y-DC-9Ou"/>
+                            <constraint firstItem="Aue-gs-Sde" firstAttribute="leading" secondItem="fFc-Ku-owi" secondAttribute="trailing" constant="10" id="ow4-50-U1Q"/>
+                            <constraint firstItem="Aue-gs-Sde" firstAttribute="centerY" secondItem="fFc-Ku-owi" secondAttribute="centerY" id="qnl-ES-AkC"/>
+                            <constraint firstItem="FkO-VT-B6O" firstAttribute="height" secondItem="Rad-xp-rDS" secondAttribute="height" multiplier="0.6" id="v5Y-DC-9Ou"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="YCc-Pj-5wS"/>
+                                <exclude reference="YQA-Y6-JMo"/>
                                 <exclude reference="WUT-gh-DNO"/>
+                                <exclude reference="DIb-4P-fNX"/>
+                                <exclude reference="eZ8-6B-otk"/>
+                                <exclude reference="ow4-50-U1Q"/>
+                                <exclude reference="qnl-ES-AkC"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="distanceLabel" destination="Aue-gs-Sde" id="9ib-W3-kjJ"/>
                         <outlet property="introTextView" destination="FkO-VT-B6O" id="jQz-rq-0ne"/>
                         <outlet property="nameLabel" destination="fFc-Ku-owi" id="O7y-M0-SAD"/>
                         <outlet property="profileImageView" destination="yAg-qv-ybD" id="Y22-M7-klb"/>
